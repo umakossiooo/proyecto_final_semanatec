@@ -1,0 +1,4 @@
+Información del sistema - Archivo 1:
+Sistema Operativo: Darwin
+
+¡Fin de la información!

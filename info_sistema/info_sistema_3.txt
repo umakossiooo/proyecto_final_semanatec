@@ -1,0 +1,4 @@
+Información del sistema - Archivo 3:
+Versión del Kernel: 21.6.0
+
+¡Fin de la información!
