@@ -1,0 +1,4 @@
+Información del sistema - Archivo 5:
+Versión del SO: Darwin Kernel Version 21.6.0: Sun Dec 17 22:55:27 PST 2023; root:xnu-8020.240.18.706.2~1/RELEASE_X86_64
+
+¡Fin de la información!

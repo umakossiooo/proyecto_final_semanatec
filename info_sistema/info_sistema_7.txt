@@ -1,0 +1,4 @@
+Información del sistema - Archivo 7:
+Versión de Python: 3.10.9
+
+¡Fin de la información!

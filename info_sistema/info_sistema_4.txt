@@ -1,0 +1,4 @@
+Información del sistema - Archivo 4:
+Arquitectura: x86_64
+
+¡Fin de la información!

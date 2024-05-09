@@ -1,0 +1,4 @@
+Información del sistema - Archivo 2:
+Procesador: i386
+
+¡Fin de la información!
