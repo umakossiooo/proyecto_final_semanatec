@@ -1,9 +1,9 @@
-# proyecto_final_semanatec
+# Proyecto Final Semana Tec
 
-##Adicion del estudiante 1 (Mariana García)
+#Adicion del estudiante 1 (Mariana García)
 - Ransomware
 
 ##
 
-##Adicion del estudiante 2(Aarón Oviedo)
+#Adicion del estudiante 2(Aarón Oviedo)
 - Generar al menos 10 archivos
