@@ -37,15 +37,15 @@ def main():
     if len(sys.argv) != 4:
         print("Uso: python descomprimir.py <carpeta_comprimida> <contraseña> <directorio_destino>")
         sys.exit(1)
-
+    
     carpeta_comprimida = sys.argv[1]
     password = sys.argv[2]
     directorio_destino = sys.argv[3]
-
+    
     if not os.path.isdir(carpeta_comprimida):
         print(f"{carpeta_comprimida} no es una carpeta válida.")
         sys.exit(1)
-
+    
     if not os.path.isdir(directorio_destino):
         print(f"{directorio_destino} no es un directorio válido.")
         sys.exit(1)
@@ -53,5 +53,5 @@ def main():
     # Descomprimir archivos ZIP protegidos con contraseña en la carpeta especificada
     desencriptar_carpeta(carpeta_comprimida, password, directorio_destino)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()

@@ -1,4 +1,4 @@
-InformaciÃ³n del sistema - Archivo 7:
-VersiÃ³n de Python: 3.10.9
+Información del sistema - Archivo 7:
+Versión de Python: 3.12.0
 
-Â¡Fin de la informaciÃ³n!
+¡Fin de la información!

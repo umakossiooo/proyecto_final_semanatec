@@ -2,8 +2,16 @@ import os
 import platform
 import psutil  # Asegúrate de tener instalado este paquete usando pip
 
-# Crear una carpeta llamada "info_sistema"
-carpeta = "info_sistema"
+# Obtener la ruta del directorio padre del directorio actual
+ruta_padre = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Nombre de la carpeta
+nombre_carpeta = "info_sistema"
+
+# Combinar la ruta del directorio padre con el nombre de la carpeta
+carpeta = os.path.join(ruta_padre, nombre_carpeta)
+
+# Asegúrate de que la carpeta exista o créala si no existe
 os.makedirs(carpeta, exist_ok=True)
 
 # Lista de funciones para obtener información del sistema

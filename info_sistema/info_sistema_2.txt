@@ -1,4 +1,4 @@
-InformaciÃ³n del sistema - Archivo 2:
-Procesador: i386
+Información del sistema - Archivo 2:
+Procesador: AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD
 
-Â¡Fin de la informaciÃ³n!
+¡Fin de la información!

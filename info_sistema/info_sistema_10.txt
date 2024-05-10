@@ -1,8 +1,0 @@
-Información del sistema 10:
-Sistema operativo: Darwin
-Versión: Darwin Kernel Version 21.6.0: Sun Dec 17 22:55:27 PST 2023; root:xnu-8020.240.18.706.2~1/RELEASE_X86_64
-Arquitectura del procesador: ('64bit', '')
-Nombre del equipo: MacBook-Air-de-Aaron.local
-Procesador: i386
-
-¡Fin de la información!
