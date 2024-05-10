@@ -53,5 +53,5 @@ def main():
     # Descomprimir archivos ZIP protegidos con contraseña en la carpeta especificada
     desencriptar_carpeta(carpeta_comprimida, password, directorio_destino)
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
