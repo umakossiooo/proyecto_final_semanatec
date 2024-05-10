@@ -1,3 +1,4 @@
+
 import os
 import platform
 import psutil  # Asegúrate de tener instalado este paquete usando pip
@@ -24,7 +25,8 @@ funciones_info_sistema = [
     platform.node,
     platform.python_version,
     lambda: f"{psutil.cpu_percent(interval=1)}%",  # Uso de la CPU
-    lambda: f"{psutil.virtual_memory().available / (1024.0 ** 3):.2f} GB"  # Memoria RAM disponible
+    lambda: f"{psutil.virtual_memory().available / (1024.0 ** 3):.2f} GB",  # Memoria RAM disponible
+    lambda: f"{psutil.disk_usage('/').free / (1024.0 ** 3):.2f} GB",  # Espacio en disco disponible
 ]
 
 # Lista de etiquetas para cada tipo de información
@@ -37,7 +39,8 @@ etiquetas = [
     "Nombre del equipo",
     "Versión de Python",
     "Uso de la CPU",
-    "Memoria RAM Disponible"
+    "Memoria RAM Disponible",
+    "Espacio en Disco disponible",
 ]
 
 # Generar información del sistema en archivos TXT
@@ -52,4 +55,5 @@ for i in range(len(funciones_info_sistema)):
         archivo.write("\n¡Fin de la información!\n")
 
 print("Se han creado 10 archivos con información del sistema en la carpeta 'info_sistema'.")
+
 
